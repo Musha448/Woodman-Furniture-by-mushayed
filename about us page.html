@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/regular.min.css" integrity="sha512-rOTVxSYNb4+/vo9pLIcNAv9yQVpC8DNcFDWPoc+gTv9SLu5H8W0Dn7QA4ffLHKA0wysdo6C5iqc+2LEO1miAow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>About Us Page</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            text-decoration: none!important;
+        }
+
+        .main-content{
+            background-color: rgb(12, 11, 11);
+            width:100%;
+            min-height: 200px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+
+        }
+        .main-content h1{
+            font-size: 50px;
+            color: white;
+            text-shadow: 3px 2px 4px rgb(205, 160, 160);
+            font-weight: bold;
+        }
+        .mobile{
+    
+    width: 93%;
+    margin: auto;
+    color: black!important;
+}
+.footer-brand{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    
+    
+}
+        .footer-brand a h1{
+            color: black;
+            font-size: 60px;
+            font-weight: bold;
+        }
+        .footer-brand .hide{
+            
+            padding: 0px 15px;
+            margin-right: 60px;
+        }
+        .footer-brand .hide a{
+            font-size: 22px;
+            padding: 0px 5px;
+            color: black;
+        }
+        .list-group .list-group-item{
+            font-size: 18px;
+            line-height: 5px;
+            text-align: justify;
+            color: black;
+        }
+        .list-group .list-group-item a{
+            font-size: 15px;
+            line-height: 5px;
+            text-align: justify;
+            color: black;
+        }
+        .list-group .list-group-item:hover{
+            text-decoration:underline!important;
+        }
+        .neon{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        hr{
+            width: 105%;
+            height: 0.2px;
+            background-color: black;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        
+        .whatsapp-1{
+       font-size: 40px;
+       position: fixed;
+       margin-right: 15px;
+       bottom:0;
+       color: rgba(37 211 102) ;
+       text-shadow: 0px 0px 40px rgba(37 211 102);
+       margin-bottom: 35px;
+       right: 0;
+       z-index: 1000;
+    
+}
+
+.surajj{
+    font-size: 13px;
+    color: red;
+    font-weight: bold;
+    bottom:0;
+    right: 0;
+    margin-right: 10px;
+    position: fixed;
+    z-index: 1000;
+    margin-bottom: 10px;
+ 
+}
+.fa-instagram{
+    
+    color:#E4405F;
+    
+}
+.fa-facebook{
+    color:#4267B2;
+}
+
+.fa-whatsapp{
+    color: rgba(37 211 102) ;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-envelope{
+    color: red;
+}
+
+.footer-brand .hide a i{
+    
+    transition: 0.2s ease-in-out;
+}
+.footer-brand .hide a i:hover{
+    transform: scale(1.4);
+}
+@media(max-width: 768px){
+    .fa-angles-left{
+        display: none;
+    }
+    .main-content{
+            background-color: rgb(12, 11, 11);
+            width:100%;
+            min-height: 100px;
+            font-size: 30px!important;
+           
+        }
+        .main-content h1{
+        font-size: 40px!important;
+    }
+
+}
+
+@media(min-width: 1198px) and (max-width: 1345px){
+            .mush-1{
+              width: 100%!important;
+            
+              font-size:13px!important;
+
+           }
+       }
+    
+     
+        @media (max-width: 768px){
+            .footer-brand{
+              
+                width: 100%;
+                display: block;
+                text-align: left;
+                padding: 0px 17px;
+            }
+            
+            .footer-brand a h1{
+
+                
+                font-size: 40px;
+            }
+            .footer-brand .hide a{
+               
+                font-size: 20px;
+                margin-left:0px;
+            }
+            .mush-1{
+               width: 100%!important;
+               
+               font-size:13px!important;
+
+            }
+        }
+        @media(max-width: 372px){
+             .mush-1{
+               width: 100%!important;
+               
+               font-size:12px!important;
+
+            }
+        }
+        .fa-angles-left{
+            
+            font-size: 30px;
+            color: black;
+            padding: 14px;
+            position: absolute;
+            top: 70px;
+            left: 60px;
+            background-color: white;
+            border-radius: 50%;
+            z-index: 1000;
+            opacity: 70%;
+            overflow: hidden;
+        
+        }
+
+        .fa-angles-left:hover{
+            opacity: 100%;
+        }
+
+    </style>
+    
+
+    <a href="https://wa.link/4xuu4d"><i class="fa-brands fa-whatsapp whatsapp-1 animate__pulse animate__animated animate__infinite	infinite animate__faster"></i></a>
+    <a href="https://wa.link/4xuu4d"><h3 class="surajj">Call Now</h3></a>
+    <a href="#" id="previous" data-aos="fade-down"><i class="fa-solid fa-angles-left"></i></a>
+
+     <!-- Optional JavaScript; choose one of the two! -->
+     <div class="container-fluid">
+        <div class="main-content" data-aos="fade-down">
+            <h1>About Us</h1>
+        </div>
+        <div class="about  px-5 py-3 mt-2 mb-4">
+            <div class="row shadow yup">
+                <div class="col-xl-6  p-5" data-aos="fade-down" >
+                    <h2 class="m-0 p-0">About Us</h2>
+                    <p class="m-0 p-0">_____________________</p>
+                    <p class="pt-4" style="font-size: 16px;"><small>If you are looking for exclusive  Furniture to enhance the look of your house then you are at the right place. Furniture not only adds to the comfort and beauty but also enhances the beauty of your house. We offer durable fabrics with unique patterns and designs. Metro Plus Life Style is one of the best manufacturer, supplier and exporter of  Furniture in India which provides wide variety of Furniture in unique, stylish designs and patterns.</small></p>
+                    <div class="media  mt-4 px-4">
+                        <i class="fa-solid fa-file-circle-check" style="font-size: 25px;"></i>
+                        <div class="media-body ml-3">
+                            <h6><b>AFFORDABLE SERVICES</b></h6>
+                            <p style="font-size:15px;" class="col-xl-10 m-0 p-0"><small>We provide reliable and affordable services to help you quickly establish a perfect website.</small></p>
+                        </div>
+                    </div>
+
+                    <div class="media mt-4 px-4">
+                        <i class="fa-solid fa-user-group" style="font-size: 25px;"></i>
+                        <div class="media-body ml-3">
+                            <h6><b>EXPERT TEAM</b></h6>
+                            <p style="font-size:15px;" class="col-xl-10 m-0 p-0 "><small>We are a team of top industry leaders with years of experience in web design and development.</small></p>
+                        </div>
+                    </div>
+
+                </div>
+           
+
+                <div class="col-xl-6  p-5  neon hola" data-aos="fade-down">
+                    <img src="garden.jpg" alt="" class="w-100">
+                </div>
+            </div>
+        </div>
+
+        
+
+        <footer class="mobile">
+
+
+
+
+
+
+            <div class="footer-brand">
+
+                <a href="#" class="" data-aos="fade-down"><h1 class="text-dark">Woodman</h1></a>
+                
+
+                <div class="hide mt-3" data-aos="fade-down">
+                    <a href="https://www.instagram.com/thewoodmanindia/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100092623261267"><i class="fa-brands fa-facebook" target="blank"></i></a>
+              <a href="https://youtube.com/@woodmanindia460"><i class="fa-brands fa-youtube" target="blank"></i></a>
+              <a href="https://wa.link/4xuu4d"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#all"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+          <div class="row p-0 m-0">
+            
+            <div class="col-xl-3 col-md-6 mt-4 p-0 m-0" data-aos="fade-down">
+                <ul class="list-group p-0 m-0">
+                    <li class=" border-0 list-group-item pb-3" style="text-decoration:none!important;"><a href="#" class="hover:none;"><b style="font-size: 22px">Govt. Approved</b></a></li>
+                    <li class=" border-0 list-group-item"><a href="#">GST certificate</a></li>
+                    <li class=" border-0 list-group-item"><a href="#">MCD certificate</a></li>
+                    <li class=" border-0 list-group-item"><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-md-6 mt-4  p-0 m-0 w-100" data-aos="fade-down">
+                <ul class="list-group">
+                    <li class=" border-0 list-group-item pb-3" style="text-decoration:none!important;"><a href="#"><b style="font-size: 22px">Contact</b></a></li>
+                    <li class=" border-0 list-group-item "><a href="#" class="mush-1">87/1, Block-2, W.H.S. Kirti Nagar,<br><br><br> New Delhi-110015,</a></li>
+                    <li class=" border-0 list-group-item"><a href="#">woodman.india@hotmail.com</a></li>
+                    <li class=" border-0 list-group-item"><a href="#" class="mush-1">Ph no. 9811607083 , 9871167471</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-md-6 mt-4 p-0 m-0" data-aos="fade-down">
+                <ul class="list-group">
+                    <li class=" border-0 list-group-item pb-3" style="text-decoration:none!important;"><a href="#"><b style="font-size: 22px">Items</b></a></li>
+                    <li class=" border-0 list-group-item"><a href="Bedpage.html">Beds</a></li>
+                    <li class=" border-0 list-group-item"><a href="Dinning Table Page.html">Dinning Table</a></li>
+                    <li class=" border-0 list-group-item"><a href="sofa.html">Sofa</a></li>
+                    <li class=" border-0 list-group-item"><a href="Chair Page.html">Chair</a></li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-md-6 mt-4 p-0 m-0" data-aos="fade-down">
+                <ul class="list-group">
+                    <li class=" border-0 list-group-item pb-3" style="text-decoration: none!important;"><a href=""><b class="" style="font-size: 22px">Social</b></a></li>
+                    <li class=" border-0 list-group-item"><a href="https://www.instagram.com/thewoodmanindia/">Instagram</a></li>
+                    <li class=" border-0 list-group-item"><a href="https://www.facebook.com/profile.php?id=100092623261267">Facebook</a></li>
+                    <li class=" border-0 list-group-item"><a href="https://wa.link/4xuu4d">Whatsapp</a></li>
+                    <li class=" border-0 list-group-item"><a href="https://youtube.com/@woodmanindia460">Youtube</a></li>
+                    <li class=" border-0 list-group-item"><a href="https://mail.google.com/mail/u/0/#inbox">G-mail</a></li>
+                    
+                </ul>
+            </div>
+          </div>
+
+        </footer>
+        <div class="copyright py-3 ">
+            <p class="text-center"><small><b>ⓒ Woodman Furniture @2023 All Right Reserved</b></small></p>
+        </div>
+
+     </div>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const previous = document.getElementById('previous');
+previous.addEventListener('click' , ()=>{
+location.href = "index.html";
+});
+      AOS.init({
+        offset:120,
+        duration:900,
+      });
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
